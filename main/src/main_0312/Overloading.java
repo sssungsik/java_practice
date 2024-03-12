@@ -1,21 +1,27 @@
 package main_0312;
 
 
-// Overloading 예제.
+// 생성자 Overloading 예제.
 public class Overloading {
-	public String overSample1() {
-		return "overSample1()";
-	}
+	//필드 선언
+	String nation = "대한민국";
+	String area;
+	int num;
 	
-	public String overSample1(String data1) {
-		return "overSample1 String data1";
-	}
+	//생성자 선언
+	Overloading() {}   // 1 생성자
 	
-	public String overSample1(int data1) {
-		return "overSample1 int data1";
+	Overloading(String area) {	// 2 생성자
+		this.area = area;
 	}
-	public String overSample1(int data1, int data2) {
-		return "overSample1 int data1, int data2";
-	}
+	Overloading(String area, int num) {	// 3 생성자
+		this.area = area;
+		this.num = num;
+	}	
 
+	
 }
+
+	
+	
+	
