@@ -1,0 +1,3 @@
+패키지 : 클래스 식별 용도
+	- 개발 회사 도메인 이름의 역순, 소문자 (com.samsung.projectname)
+	- 선언 : package 상위패키지.하위패키지 
