@@ -1,4 +1,4 @@
-package vehicle_0401;
+package main.java.inheritance2;
 
 public class Bus extends Vehicle {
 	public int speed = 120;

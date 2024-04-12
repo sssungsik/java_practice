@@ -1,4 +1,4 @@
-package vehicle_0401;
+package main.java.inheritance2;
 
 public class DriverExample {
 

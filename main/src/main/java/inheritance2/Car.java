@@ -1,4 +1,4 @@
-package car_0401;
+package main.java.inheritance2;
 
 public class Car {
 	// 필드 선언

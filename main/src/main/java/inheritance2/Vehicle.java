@@ -1,4 +1,4 @@
-package vehicle_0401;
+package main.java.inheritance2;
 
 public class Vehicle {
 	// 메서드 선언

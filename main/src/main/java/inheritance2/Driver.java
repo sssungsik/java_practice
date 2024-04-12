@@ -1,4 +1,4 @@
-package vehicle_0401;
+package main.java.inheritance2;
 
 public class Driver {
 	// 메서드 선언 (클래스 타입의 매개변수를 갖고 있음)

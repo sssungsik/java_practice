@@ -1,4 +1,4 @@
-package car_0401;
+package main.java.inheritance2;
 
 public class KumhoT extends Tire {
 	// 메서드 재정의
