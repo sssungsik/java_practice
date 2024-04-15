@@ -1,6 +1,6 @@
-package interface_0405;
+package main.java.Interface;
 
-public interface NewInterFace {
+public interface RemoteControl {
 	// 상수 필드
 	int PLUG_INT = 220;
 
@@ -16,5 +16,10 @@ public interface NewInterFace {
 			System.out.println("전력 차단. 강제종료.");
 			turnOff();
 		} 
+	}
+	
+	// 정적 메소드
+	static void changeBattery() {
+		System.out.println("건전지 교환");
 	}
 }

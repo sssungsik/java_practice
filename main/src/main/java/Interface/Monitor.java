@@ -1,6 +1,6 @@
-package interface_0405;
+package main.java.Interface;
 
-public class Monitor implements NewInterFace {
+public class Monitor implements RemoteControl {
 	// 필드 
 	private int brightness;
 
