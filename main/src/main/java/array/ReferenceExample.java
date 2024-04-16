@@ -1,4 +1,4 @@
-package main.java.exception;
+package main.java.array;
 
 public class ReferenceExample {
 
