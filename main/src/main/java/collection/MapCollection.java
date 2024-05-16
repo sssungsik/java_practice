@@ -7,6 +7,8 @@ import java.util.NavigableMap;
 import java.util.Set;
 import java.util.TreeMap;
 
+import main.java.collection.ListCollection.ArrayListMcdonalds;
+
 public class MapCollection {
 	public void SampleAddMap() {
 		Map<String, Integer> map = new HashMap<>();
@@ -58,14 +60,14 @@ public class MapCollection {
 
 	// Map > Mcdonals 객체 대입 및 name 출력
 	public void SampleMap() {
-		Map<Integer, Mcdonals> map = new HashMap<>();
-		map.put(1, new Mcdonals("불고기버거", "버거", 3000));
-		map.put(2, new Mcdonals("콜라", "음료", 1500));
-		map.put(3, new Mcdonals("감자튀김", "디저트", 2000));
+		Map<Integer, ArrayListMcdonalds> map = new HashMap<>();
+		map.put(1, new ArrayListMcdonalds("불고기버거", "버거", 3000));
+		map.put(2, new ArrayListMcdonalds("콜라", "음료", 1500));
+		map.put(3, new ArrayListMcdonalds("감자튀김", "디저트", 2000));
 
-		for (Map.Entry<Integer, Mcdonals> entry : map.entrySet()) {
+		for (Map.Entry<Integer, ArrayListMcdonalds> entry : map.entrySet()) {
 			Integer k = entry.getKey();
-			Mcdonals v = entry.getValue();
+			ArrayListMcdonalds v = entry.getValue();
 			System.out.println(k + " " + v.getName());
 		}
 

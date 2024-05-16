@@ -1,0 +1,5 @@
+- List 컬렉션은 저장 순서를 유지하지만, Set 컬렉션은 저장 순서 유지되지 않음.
+- 객체 중복 저장 불가.
+- 하나의 null 만 저장 가능.
+- HashSet, LinkedHashSet, TreeSet 등
+
